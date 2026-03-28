@@ -48,6 +48,22 @@ export const skills = [
 export const projects = [
   {
     id: 1,
+    title: "AI CV Analyzer",
+    description:
+      "An AI-powered CV analysis tool that evaluates resumes for relevance and quality. Built with Python and natural language processing techniques to provide insights on candidate suitability.",
+    tech: ["React","Python", "Flask", "Node.js"],
+    github: "https://github.com/Mwfourty/CV-Analyzer",
+    preview: "https://github.com/Mwfourty/CV-Analyzer",
+    color: "#f472b6",
+    features: [
+      "AI-powered CV analysis",
+      "Natural language processing",
+      "Resume evaluation insights",
+    ],
+    icon: "DocumentText",
+  },
+  {
+    id: 2,
     title: "Gym Management System",
     description:
       "A system to manage gym member and employee data with full CRUD operations. Designed and developed using C# with SQL Server integration for reliable data storage and retrieval.",
@@ -64,7 +80,7 @@ export const projects = [
     icon: "Dumbbell",
   },
   {
-    id: 2,
+    id: 3,
     title: "Gadget Store Web App",
     description:
       "An interactive gadget store interface where users can browse products, add favourites, and compare device specifications. Built with vanilla JavaScript.",
@@ -81,7 +97,7 @@ export const projects = [
     icon: "Smartphone",
   },
   {
-    id: 3,
+    id: 4,
     title: "Employee Timesheet Portal",
     description:
       "A full-stack web application for employees to log and track daily work tasks. RESTful API backend with a modern glassmorphic React frontend and SQL Server database.",
@@ -99,7 +115,7 @@ export const projects = [
   },
 
   {
-  id: 4,
+  id: 5,
   title: "Full Stack E-commerce Website",
   description:
     "A complete e-commerce platform featuring product browsing, cart functionality, authentication, and backend integration. Built as a full-stack project demonstrating frontend UI and backend API interaction.",
@@ -117,7 +133,7 @@ export const projects = [
 },
 
 {
-  id: 5,
+  id: 6,
   title: "Hotel Website",
   description:
     "A responsive hotel website showcasing rooms, services, and booking information. Focused on modern UI design and responsive layouts.",
@@ -135,7 +151,7 @@ export const projects = [
 },
 
 {
-  id: 6,
+  id: 7,
   title: "Rose Bags E-commerce Website",
   description:
     "A product-focused web store showcasing bag collections with product cards, product browsing, and a modern responsive UI.",
@@ -153,7 +169,7 @@ export const projects = [
 },
 
 {
-  id: 7,
+  id: 8,
   title: "PRG261 Academic Project",
   description:
     "A structured academic software development project demonstrating object-oriented programming principles and application structure.",
@@ -171,7 +187,7 @@ export const projects = [
 },
 
 {
-  id: 8,
+  id: 9,
   title: "To-Do List Application",
   description:
     "A lightweight productivity application allowing users to create, manage, and track tasks with a clean interactive interface.",
@@ -189,7 +205,7 @@ export const projects = [
 },
 
 {
-  id: 9,
+  id: 10,
   title: "Glowing Calculator",
   description:
     "A visually styled calculator with glowing UI effects and interactive button inputs, demonstrating DOM manipulation and modern CSS styling.",
