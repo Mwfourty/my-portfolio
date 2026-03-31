@@ -2,7 +2,7 @@ export const personal = {
   name: "Musawenkosi Mndau",
   title: "Full-Stack Developer & IT Student",
   location: "Pretoria, South Africa",
-  phone: "065 836 6864",
+  phone: "069 452 4469",
   email: "musawenkosimndau@gmail.com",
   github: "https://github.com/Mwfourty",
   linkedin: "https://www.linkedin.com/in/musawenkosi-mndau-617a95262/",
