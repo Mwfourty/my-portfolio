@@ -7,7 +7,7 @@ export const personal = {
   github: "https://github.com/Mwfourty",
   linkedin: "https://www.linkedin.com/in/musawenkosi-mndau-617a95262/",
   summary:
-    "Final-year Diploma in Information Technology student at Belgium Campus iTversity with a 70.8% academic average. Strong capabilities in full-stack software development — building web applications and database-driven systems. Seeking a Junior Software Developer / IT Internship.",
+    "Final-year Diploma in Information Technology student at Belgium Campus iTversity with a 70.8% academic average. Strong capabilities in full-stack software development, building web applications and database-driven systems. Seeking a Junior Software Developer / IT Internship.",
   average: "70.8%",
   credits: 360,
 };
@@ -86,7 +86,7 @@ export const projects = [
       "An interactive gadget store interface where users can browse products, add favourites, and compare device specifications. Built with vanilla JavaScript.",
     tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/Mwfourty/GadgetStore",
-    preview: "https://github.com/Mwfourty/GadgetStore",
+    preview: "https://gadget-store-ecru.vercel.app/",
     color: "#a78bfa",
     features: [
       "Product browsing interface",
@@ -103,7 +103,7 @@ export const projects = [
       "A full-stack web application for employees to log and track daily work tasks. RESTful API backend with a modern glassmorphic React frontend and SQL Server database.",
     tech: ["React", "Node.js", "SQL Server"],
     github: "https://github.com/Mwfourty/Glassmorphic-Timesheet-Portal",
-    preview: "https://github.com/Mwfourty/Glassmorphic-Timesheet-Portal",
+    preview: "https://glassmorphic-timesheet-portal.vercel.app/",
     color: "#34d399",
     features: [
       "Full-stack architecture",
@@ -228,6 +228,7 @@ export const education = {
   institution: "Belgium Campus iTversity",
   location: "Pretoria, South Africa",
   average: "70.8%",
+  nqfLevel: 6,
   credits: 360,
   topResults: [
     { subject: "End-User Computing", grade: 90 },

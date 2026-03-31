@@ -200,6 +200,10 @@ export default function About() {
                 <div style={{ fontFamily: "'Poppins', sans-serif", fontSize: "1.6rem", fontWeight: 800, color: "#34d399" }}>{education.credits}</div>
                 <div style={{ fontFamily: "'Space Mono', monospace", fontSize: "0.62rem", color: "rgba(255,255,255,0.4)", letterSpacing: "0.1em", textTransform: "uppercase" }}>Credits</div>
               </div>
+              <div>
+                <div style={{fontFamily: "'Poppins', sans-serif", fontSize: "1.6rem", fontWeight: 800, color: "#34d399" }}>{education.nqfLevel}</div>
+                <div style={{ fontFamily: "'Space Mono', monospace", fontSize: "0.62rem", color: "rgba(255,255,255,0.4)", letterSpacing: "0.1em", textTransform: "uppercase" }}>NQF</div>
+              </div>
             </div>
           </div>
 
@@ -262,7 +266,7 @@ export default function About() {
                 margin: "0 0 6px",
               }}
             >
-              Download My CV
+              Download CV
             </h3>
             <p style={{ fontFamily: "'Space Mono', monospace", fontSize: "0.75rem", color: "rgba(255,255,255,0.45)", margin: 0 }}>
               Full CV with experience, skills, and references available on request.
